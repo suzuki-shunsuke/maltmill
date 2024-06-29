@@ -5,6 +5,7 @@ on:
     - "main"
 jobs:
   tagpr:
+    timeout-minutes: 30
     runs-on: ubuntu-latest
     steps:
     - name: setup go

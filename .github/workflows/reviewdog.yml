@@ -2,6 +2,7 @@ name: reviewdog
 on: [pull_request]
 jobs:
   staticcheck:
+    timeout-minutes: 30
     name: staticcheck
     runs-on: ubuntu-latest
     steps:
